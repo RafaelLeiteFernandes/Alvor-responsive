@@ -11,7 +11,7 @@
 }
 
 .servicos_gerais h1 {
-    font-size: 26px;
+    font-size: 20px;
     text-align: center;
     padding: .5rem;
     font-weight: 700;
@@ -19,7 +19,7 @@
 
 .servicos_gerais ul li {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 13px;
     text-align: center;
     padding: .15rem;
 }
@@ -30,6 +30,7 @@
     padding-top: .5rem;
     padding-left: .30rem;
 }
+
 /* Topografia */
 
 section.module.parallax-2 {
@@ -107,7 +108,10 @@ section.module.parallax-14 {
         flex-direction: column;
     }
     .servicos_gerais ul li {
-        font-size: 14px;
+        font-size: 12px;
+    }
+    .servicos_gerais h1{
+        font-size: 20px;
     }
 }
 
@@ -134,7 +138,7 @@ section.module.parallax-14 {
         flex-direction: column;
     }
     .servicos_gerais ul li {
-        font-size: 14px;
+        font-size: 11px;
     }
     section.module p{
         font-size: 12px;
@@ -181,7 +185,7 @@ section.module.parallax-14 {
         flex-direction: column;
     }
     .servicos_gerais ul li {
-        font-size: 14px;
+        font-size: 11px;
     }
     section.module p{
         font-size: 12px;

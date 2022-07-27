@@ -42,6 +42,9 @@ a:hover {
     list-style: none;
     display: flex;
   }
+  .nav-list a {
+    font-size: 12px;
+  }
   
   .nav-list li {
     letter-spacing: 3px;
@@ -50,7 +53,7 @@ a:hover {
   
   .mobile-menu {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     display: none;
     cursor: pointer;
   }
@@ -243,6 +246,9 @@ a:hover {
   to {transform: scale(1.5, 1.5);}
 }
 
+.topicos li {
+  font-size: 16px;
+}
 @media screen and (max-width: 800px){
 	.myslide{
 		height: 500px;
@@ -370,7 +376,7 @@ a:hover {
   }
 
 @media screen and (max-width: 800px) {
-      .topicos ul {
+      .topicos li {
         font-size: 18px;
       }
 
@@ -394,7 +400,7 @@ a:hover {
       padding-top: 10px;
       font-size: 12px;
       }
-      .topicos ul {
+      .topicos li {
         font-size: 15px;
       }
       .rodape_logo img {
@@ -413,7 +419,7 @@ a:hover {
       padding-top: 10px;
       font-size: 12px;
     }
-     .topicos ul {
+     .topicos li {
         font-size: 12px;
         justify-content: space-evenly;
       }
@@ -431,7 +437,7 @@ a:hover {
 
 
   @media screen and (max-width: 330px){
-    .topicos ul {
+    .topicos li {
       font-size: 12px;
       
     }
