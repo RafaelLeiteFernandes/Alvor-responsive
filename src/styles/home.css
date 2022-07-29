@@ -33,7 +33,9 @@ a:hover {
     background-color: #98c663;
     color: rgb(255, 255, 255);
   }
-  
+  nav{
+    z-index: 10;
+  }
   nav a.ativo {
     background-color: #1e333d;
     color: rgb(255, 255, 255);
@@ -383,6 +385,26 @@ a:hover {
       .rodape_rede_social a{
         font-size: 15px;
       }
+      nav {
+        z-index: 3;
+    }
+     /*slide arrumado */
+     .content_slider img {
+      height: 45vw;
+      width: 100%;
+ 
+     }
+     .myslide.fade {
+      height:45vw;
+      width: 100%;
+     }
+     .myslide.fade h1 {
+      font-size:14px ;
+     }
+     .myslide.fade p {
+      font-size: 10px;
+     }
+     /*slide arrumado */
     }
 
 @media screen and (max-width: 430px){
@@ -405,7 +427,10 @@ a:hover {
       }
       .rodape_logo img {
         width: 300px;
-        }
+      }
+      .prev, .next{
+        font-size: 70%;
+      }
       }
 @media screen and (max-width: 390px){
     .rodape_rede_social{
@@ -432,7 +457,28 @@ a:hover {
       section.module p{
         font-size: 12px;
       }
- 
+      /*slide arrumado */
+      .content_slider img {
+        height: 40vw;
+        width: 100%;
+   
+       }
+       .myslide.fade {
+        height:50vw;
+        width: 100%;
+       }
+       .myslide.fade h1 {
+        font-size:10px ;
+       }
+       .myslide.fade p {
+        display: none;
+       }
+       .prev, .next{
+        font-size: 70%;
+      }
+      .dotsbox span{
+        font-size: 70%;
+      }
  }
 
 
@@ -446,5 +492,9 @@ a:hover {
     }
     .prev, .next{
       font-size: 70%;
+    }
+    .container_video iframe{
+      width: 100%;
+      height: 100vw;
     }
   }

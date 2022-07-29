@@ -177,23 +177,7 @@ section.module.parallax:after {
        }
        /*-------resolução do  parallax resposivo-------*/
 
-       /*slide arrumado */
-       .content_slider img {
-        height: 45vw;
-        width: 100%;
-   
-       }
-       .myslide.fade {
-        height:45vw;
-        width: 100%;
-       }
-       .myslide.fade h1 {
-        font-size:14px ;
-       }
-       .myslide.fade p {
-        font-size: 10px;
-       }
-       /*slide arrumado */
+      
    }
 
    @media screen and (max-width: 390px){
@@ -210,4 +194,5 @@ section.module.parallax:after {
     section.module h2 {
         font-size: 18px;
     } 
+  
    }
