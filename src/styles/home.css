@@ -250,7 +250,14 @@ a:hover {
 
 .topicos li {
   font-size: 16px;
+  padding: 1rem;
 }
+@media screen and (max-width: 1024px){
+  .nav-list a {
+    font-size: 11px;
+  }
+}
+
 @media screen and (max-width: 800px){
 	.myslide{
 		height: 500px;
@@ -423,7 +430,7 @@ a:hover {
       font-size: 12px;
       }
       .topicos li {
-        font-size: 15px;
+        font-size: 13px;
       }
       .rodape_logo img {
         width: 300px;
